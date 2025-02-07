@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <h1>Регистрация</h1>
-        <span>Уже есть аккаунт?</span><a href="#">Войти</a>
+       
+        <div class="form">
+            <h1>Регистрация</h1>
+            <span class="haveAccount">Уже есть аккаунт?</span><a href="#">Войти</a>
+            <form action="#">
+                <div class="input1">
+                    <input type="text" placeholder="Моя компания" >
+                </div>
+                <div class="input2">
+                    <input type="text" placeholder="Имя"><input type="text" placeholder="Фамилия">
+                </div>
+                <div class="input3">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <button class="button">Зарегистрироваться</button>
+                </div>
+                <span class="policy">Я прочитал и принимаю</span> <a href="#">Условия использования</a>
+            </form>
+        </div>
         
-        <form action="#">
-            <div>
-                <input type="text" placeholder="Моя компания">
-            </div>
-            <div>
-                <input type="text" placeholder="Имя"><input type="text" placeholder="Фамилия">
-            </div>
-            <div>
-                <input type="email" placeholder="E-mail">
-            </div>
-            <div>
-                <button>Зарегистрироваться</button>
-            </div>
-            <span>Я прочитал и принимаю</span> <a href="#">Условия использования</a>
-        </form>
     </main>
     
 </body>
