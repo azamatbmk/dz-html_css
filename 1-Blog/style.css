@@ -10,6 +10,7 @@ a {
 }
 h1 {
     font-size: 24px;
+    margin: 14px auto 30px;
 }
 
 h2 {
@@ -17,6 +18,7 @@ h2 {
 }
 h3 {
     font-size: 14px;
+    margin: 0px auto 28px;
 }
 span {
     font-size: 14px;
@@ -28,8 +30,13 @@ span {
 
 p {
     font-size: 16px;
+    margin: 30px auto;
 }
 
 h5 {
     font-size: 16px;
+}
+
+.imageComp {
+    margin: 28px auto 68px;
 }
