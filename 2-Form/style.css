@@ -1,0 +1,18 @@
+body {
+    background-color: #FFA5A5;
+    font-family: sans-serif;
+}
+.form {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333333;
+}
+.haveAccount {
+    font-size: 18px;
+}
+.policy {
+    font-size: 14px;
+}
