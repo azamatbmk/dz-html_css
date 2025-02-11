@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <main>
        
         <div class="form">
             <h1>Регистрация</h1>
-            <span class="haveAccount">Уже есть аккаунт?</span><a href="#">Войти</a>
+            <span class="haveAccount">Уже есть аккаунт?<a href="#">Войти</a></span>
             <form action="#">
                 <div class="input first">
-                    <input type="text" placeholder="Моя компания" >
+                    <input class="companyInput" type="text" placeholder="Ваша компания" >
                 </div>
                 <div class="input second">
-                    <input type="text" placeholder="Имя"><input type="text" placeholder="Фамилия">
+                    <input class="nameInput" type="text" placeholder="Имя"><input class="surnameInput" type="text" placeholder="Фамилия">
                 </div>
                 <div class="input third">
-                    <input type="email" placeholder="E-mail">
+                    <input class="emailInput" type="email" placeholder="E-mail">
                 </div>
                 <div>
                     <button class="button">Зарегистрироваться</button>
                 </div>
+                <input class="check" type="checkbox" name="policy" id="checkPolicy">
                 <span class="policy">Я прочитал и принимаю</span> <a href="#">Условия использования</a>
             </form>
         </div>
