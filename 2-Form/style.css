@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFA5A5;
+    font-family: "Open Sans";
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: #FFFEFE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px 90px;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333333;
+    margin: 10px auto;
+
+}
+.haveAccount {
+    font-size: 18px;
+    color: #666666;
+    margin: 0px auto 47px;
+}
+.policy {
+    font-size: 14px;
+}
+
+a {
+    margin-left: 6px;
+    color: #089FE0;
+}
+
+.input.first {
+    display: flex;
+    width: 394px;
+    height: 44px;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.firstInput {
+    padding: 10px;
+    width: 100%;
+}
+
+.input.second {
+    display: flex;
+    width: 394px;
+    height: 44px;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.nameInput {
+    width: 50%;
+    background-color: #F5F5F5;
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+.surnameInput {
+    width: 50%;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+.input.third {
+    display: flex;
+    width: 394px;
+    height: 44px;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.emailInput {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.button {
+    width: 394px;
+    height: 44px;
+    background-color: #089FE0;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    font-size: 18px;
+}
+
+.check {
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
