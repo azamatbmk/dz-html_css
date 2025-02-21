@@ -1,0 +1,123 @@
+
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    grid-template-areas: 
+        "section__cards section__cards section__cards"
+        "card card card";
+    padding: 0 10%;
+    margin: 0 0 80px;
+}
+
+.section__cards {
+    justify-items: center;
+    grid-area: section__cards;
+}
+
+.section__main-header {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.section__main-paragraph {
+    color: #4E5D7C80;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20px auto repeat(5, 0.5fr);
+    grid-template-areas: 
+        "card__sale card__sale"
+        "card__header card__header"
+        "card__description card__description";
+    box-shadow: 0px 0px 32px #4E5D7C29;
+    border-radius: 8px;
+    padding: 48px 40px;
+    max-width: 369px;
+}
+
+.card:hover {
+    background-color: #357EFE;
+}
+
+.card:hover > h2 {
+    color: #FFFFFF;
+}
+
+.card:hover > div {
+    color: #FFFFFF;
+}
+
+.card:hover > p {
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+.card:hover > button {
+   background-color: #FFFFFF;
+   color: #357EFE;
+}
+
+.card__sale {
+    grid-area: card__sale;
+    font-size: 15px;
+}
+
+.card__header {
+    grid-area: card__header;
+    font-size: 32px;
+    margin: 16px 0px;
+    
+}
+
+.card__description {
+    grid-area: card__description;
+    color: #4E5D7C80;
+    font-size: 17px;
+    margin: 0px 0px 50px;
+}
+
+.card__price-item {
+    font-size: 17px;
+    color: #4E5D7C;
+    
+}
+
+.card__price-item > span {
+    background-color: #FFC736;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.card__sale > span {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+.card__button {
+    grid-column: 1 / -1;
+    margin-top: 40px;
+    border: none;
+    background-color: #357EFE;
+    height: 48px;
+    color: #FFFFFF;
+    border-radius: 47px;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: "Inter";
+}
+
+@media (max-width: 1000px) {
+    .section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "section__cards section__cards"
+            "card card";
+    }
+}

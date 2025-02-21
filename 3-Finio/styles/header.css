@@ -1,0 +1,153 @@
+/* Heder section */
+ 
+header {
+    
+}
+
+.hero-section {
+    padding: 0 10%;
+    height: 100vh;
+    background: var(--color-primary);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 95%);
+}
+
+/* Nav */
+
+.hero-section__menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: var(--color-white);
+    margin: 0 0 70px;
+}
+
+.hero-section__menu-list {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+    opacity: 80%;
+}
+
+a:hover {
+    opacity: 100%;
+}
+
+.hero-section__main-info {
+    color: var(--color-white);
+    width: 40%;
+}
+
+.hero-section__menu-container > h2 {
+    font-weight: 900;
+}
+
+.hero-section__menu-container > img {
+    display: none;
+}
+
+.markets-logos-img {
+    margin-top: 90px;
+    max-height: 70px;
+    position: absolute;
+    left: 10%;
+}
+
+.notebook-img {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    z-index: 9999;
+    max-width: 750px;
+}
+
+@media screen and (max-width: 1100px) {
+    .notebook-img {
+            max-width: 600px;
+            left: 50%
+        }
+    
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero-section__menu-container>img {
+        display: flex;
+    }
+
+    .hero-section__menu-list {
+        display: none;
+    }
+
+    .hero-section__menu-container > button {
+        display: none;
+    }
+
+    .notebook-img {
+        left: 55%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .main-button {
+        font-size: var(--font-size-14);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .notebook-img {
+        position: absolute;
+        left: 80%;
+        top: 30%;
+        z-index: 9999;
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .main-button {
+        font-size: var(--font-size-14);
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .hero-section {
+        height: 150vh;
+        }
+
+    .markets-logos-img {
+        left: 80%;
+    }
+
+    .hero-section__notebook {
+        display: none;
+    }
+
+    .hero-section__info-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .main-button {
+        font-size: var(--font-size-14);
+    }
+}
