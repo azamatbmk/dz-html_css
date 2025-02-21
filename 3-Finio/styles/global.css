@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #357EFE;
+    --font-size-17: 17px;
+    --font-size-14: 14px;
+    --color-white: #FFFFFF;
+    --color-paragraph-50: #4E5D7C50;
+    --color-paragraph-80: #FFFFFF80;
+    --color-footer: #1A1D25;
+    --color-footer-border-bottom: #FFFFFF08;
+}
+
+html {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+

@@ -1,0 +1,43 @@
+/* Button */
+
+.main-button {
+    border: none;
+    padding: 12px 32px;
+    border-radius: 34px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: var(--font-size-17);
+    color: var(--color-primary);
+}
+
+.advantages-header__item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+h2 {
+    display: flex;
+    margin: 24px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    color: var(--color-paragraph-80);
+}
